@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(82, 82, 82);
+  font-family: sans-serif;
+}
+
+#container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100px;
+  width: 300px;
+  border-radius: 2px;
+}
+#Grams-weight {
+  background-color: rgb(115, 115, 228);
+}
+#Kg-weight {
+  background-color: rgb(182, 91, 91);
+}
+
+#Ounces-weight {
+  background-color: rgb(181, 241, 121);
+}
+
+#type {
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 40px;
+}
